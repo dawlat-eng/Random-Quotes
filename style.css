@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Libre Baskerville", serif;
+}
+
+.container {
+    width: 80%;
+    margin-inline: auto;
+
+}
+
+main{
+    background-image: url(./imges/neutral-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    padding-block: 20px;
+    font-size: 80px;
+    min-height: 126px;
+}
+
+main p {
+    font-size: 35px;
+    padding-block: 20px;
+}
+
+main button{
+    font-size: 25px;
+    width: 250px;
+    height: 80px;
+    background-color: #483e44;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+main button:hover{
+    background-color: rgb(84, 134, 124);
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    main h1{
+        min-height: 160px;
+    }
+
+}
+@media screen and (min-width:576px) and (max-width:767px) {
+    main h1{
+        min-height: 160px;
+    }
+
+}
+@media screen and (max-width:575px){
+    main h1{
+        min-height: 160px;
+    }
+}
+
